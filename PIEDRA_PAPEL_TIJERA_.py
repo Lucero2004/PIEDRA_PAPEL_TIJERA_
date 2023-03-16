@@ -21,24 +21,24 @@ num_maq= randint(1,3)
 opcion=int(input("\n Dame la opcion:"))
 if (opcion==1):
     if num_maq==1:
-        print("Sacó piedra asi que:  empataste")
+        print("Sacó piedra y tu sacaste piedra; asi que : empataste")
     elif num_maq==2:
-          print("Sacó papel asi que: perdiste") 
+          print("Sacó papel  y tu sacaste piedra;asi que: perdiste") 
     elif num_maq==3:
-      print("Sacó tijera asi que:  ganaste")
+      print("Sacó tijera y tu sacaste piedra; asi que:  ganaste")
 elif(opcion==2):
      if num_maq==1:
-            print("Sacó piedra asi que: ganaste")
+            print("Sacó piedra y tu sacaste pepel; asi que: ganaste")
      elif num_maq==2:
-      print("Sacó papel asii que empataste")  
+      print("Sacó papel y tu sacaste papel; asi que empataste")  
      elif num_maq==3:
-       print("Sacó tijera asi que: perdiste")
+       print("Sacó tijera y tu sacaste papel; asi que: perdiste")
 elif (opcion==3):
     if num_maq==1:
-      print("Sacó piedra asi que: perdiste")
+      print("Sacó piedra y tu tijera; asi que: perdiste")
     elif num_maq==2:
-      print("Sacó papel asi que: ganaste")
+      print("Sacó papel y tu tijera; asi que: ganaste")
     elif num_maq==3:
-      print("Sacó tijera asi que: empataste")
+      print("Sacó tijera y tu tijera;  asi que: empataste")
 else:
       print("No se puede realizar el proceso esa opcion no hace parte de la propuestas")
